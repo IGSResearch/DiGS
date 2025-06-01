@@ -1,0 +1,3 @@
+# CUDA_VISIBLE_DEVICES=2 PYTHONPATH='.'  python train.py -s data/endonerf/pulling_soft_tissues --port 6017 --expname "endonerf/pulling" --configs arguments/endonerf.py 
+CUDA_VISIBLE_DEVICES=0  python train.py -s data/endonerf/cutting_tissues_twice --port 6017 --expname "endonerf/cutting" --configs arguments/endonerf.py 
+# CUDA_VISIBLE_DEVICES=0 PYTHONPATH='.'  python train.py -s data/P1 --port 6017 --expname "P1" --configs arguments/stereomis.py 
